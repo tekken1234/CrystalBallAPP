@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		844D23BD199C67EE0050888D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844D23BC199C67EE0050888D /* Foundation.framework */; };
+		844D23BF199C67EE0050888D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844D23BE199C67EE0050888D /* CoreGraphics.framework */; };
+		844D23C1199C67EE0050888D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844D23C0199C67EE0050888D /* UIKit.framework */; };
+		844D23C7199C67EE0050888D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 844D23C5199C67EE0050888D /* InfoPlist.strings */; };
+		844D23C9199C67EE0050888D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D23C8199C67EE0050888D /* main.m */; };
+		844D23CD199C67EE0050888D /* LDHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D23CC199C67EE0050888D /* LDHAppDelegate.m */; };
+		844D23D0199C67EE0050888D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 844D23CE199C67EE0050888D /* Main.storyboard */; };
+		844D23D3199C67EE0050888D /* LDHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D23D2199C67EE0050888D /* LDHViewController.m */; };
+		844D23D5199C67EE0050888D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 844D23D4199C67EE0050888D /* Images.xcassets */; };
+		844D23DC199C67EE0050888D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844D23DB199C67EE0050888D /* XCTest.framework */; };
+		844D23DD199C67EE0050888D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844D23BC199C67EE0050888D /* Foundation.framework */; };
+		844D23DE199C67EE0050888D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 844D23C0199C67EE0050888D /* UIKit.framework */; };
+		844D23E6199C67EE0050888D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 844D23E4199C67EE0050888D /* InfoPlist.strings */; };
+		844D23E8199C67EE0050888D /* CrystalBall1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D23E7199C67EE0050888D /* CrystalBall1Tests.m */; };
+		844D23F3199C68E10050888D /* LDHCrystalBall.m in Sources */ = {isa = PBXBuildFile; fileRef = 844D23F2199C68E10050888D /* LDHCrystalBall.m */; };
+		844D23F5199C8B170050888D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 844D23F4199C8B170050888D /* background.png */; };
+		84BF348F199CBC3900004627 /* crystal_ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 84BF348E199CBC3900004627 /* crystal_ball.mp3 */; };
+		84BF3491199CBC8A00004627 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84BF3490199CBC8A00004627 /* AudioToolbox.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		844D23DF199C67EE0050888D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 844D23B1199C67EE0050888D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 844D23B8199C67EE0050888D;
+			remoteInfo = CrystalBall1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		844D23B9199C67EE0050888D /* CrystalBall1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrystalBall1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		844D23BC199C67EE0050888D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		844D23BE199C67EE0050888D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		844D23C0199C67EE0050888D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		844D23C4199C67EE0050888D /* CrystalBall1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrystalBall1-Info.plist"; sourceTree = "<group>"; };
+		844D23C6199C67EE0050888D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		844D23C8199C67EE0050888D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		844D23CA199C67EE0050888D /* CrystalBall1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CrystalBall1-Prefix.pch"; sourceTree = "<group>"; };
+		844D23CB199C67EE0050888D /* LDHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDHAppDelegate.h; sourceTree = "<group>"; };
+		844D23CC199C67EE0050888D /* LDHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDHAppDelegate.m; sourceTree = "<group>"; };
+		844D23CF199C67EE0050888D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		844D23D1199C67EE0050888D /* LDHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LDHViewController.h; sourceTree = "<group>"; };
+		844D23D2199C67EE0050888D /* LDHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LDHViewController.m; sourceTree = "<group>"; };
+		844D23D4199C67EE0050888D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		844D23DA199C67EE0050888D /* CrystalBall1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrystalBall1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		844D23DB199C67EE0050888D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		844D23E3199C67EE0050888D /* CrystalBall1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrystalBall1Tests-Info.plist"; sourceTree = "<group>"; };
+		844D23E5199C67EE0050888D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		844D23E7199C67EE0050888D /* CrystalBall1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrystalBall1Tests.m; sourceTree = "<group>"; };
+		844D23F1199C68E10050888D /* LDHCrystalBall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LDHCrystalBall.h; path = ../LDHCrystalBall.h; sourceTree = "<group>"; };
+		844D23F2199C68E10050888D /* LDHCrystalBall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LDHCrystalBall.m; path = ../LDHCrystalBall.m; sourceTree = "<group>"; };
+		844D23F4199C8B170050888D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		84BF348E199CBC3900004627 /* crystal_ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crystal_ball.mp3; sourceTree = "<group>"; };
+		84BF3490199CBC8A00004627 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		844D23B6199C67EE0050888D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BF3491199CBC8A00004627 /* AudioToolbox.framework in Frameworks */,
+				844D23BF199C67EE0050888D /* CoreGraphics.framework in Frameworks */,
+				844D23C1199C67EE0050888D /* UIKit.framework in Frameworks */,
+				844D23BD199C67EE0050888D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844D23D7199C67EE0050888D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D23DC199C67EE0050888D /* XCTest.framework in Frameworks */,
+				844D23DE199C67EE0050888D /* UIKit.framework in Frameworks */,
+				844D23DD199C67EE0050888D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		844D23B0199C67EE0050888D = {
+			isa = PBXGroup;
+			children = (
+				844D23C2199C67EE0050888D /* CrystalBall1 */,
+				844D23E1199C67EE0050888D /* CrystalBall1Tests */,
+				844D23BB199C67EE0050888D /* Frameworks */,
+				844D23BA199C67EE0050888D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		844D23BA199C67EE0050888D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				844D23B9199C67EE0050888D /* CrystalBall1.app */,
+				844D23DA199C67EE0050888D /* CrystalBall1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		844D23BB199C67EE0050888D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84BF3490199CBC8A00004627 /* AudioToolbox.framework */,
+				844D23BC199C67EE0050888D /* Foundation.framework */,
+				844D23BE199C67EE0050888D /* CoreGraphics.framework */,
+				844D23C0199C67EE0050888D /* UIKit.framework */,
+				844D23DB199C67EE0050888D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		844D23C2199C67EE0050888D /* CrystalBall1 */ = {
+			isa = PBXGroup;
+			children = (
+				844D23CE199C67EE0050888D /* Main.storyboard */,
+				844D23F1199C68E10050888D /* LDHCrystalBall.h */,
+				844D23F2199C68E10050888D /* LDHCrystalBall.m */,
+				84BF348E199CBC3900004627 /* crystal_ball.mp3 */,
+				844D23D1199C67EE0050888D /* LDHViewController.h */,
+				844D23D2199C67EE0050888D /* LDHViewController.m */,
+				844D23D4199C67EE0050888D /* Images.xcassets */,
+				844D23C3199C67EE0050888D /* Supporting Files */,
+			);
+			path = CrystalBall1;
+			sourceTree = "<group>";
+		};
+		844D23C3199C67EE0050888D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844D23F4199C8B170050888D /* background.png */,
+				844D23CB199C67EE0050888D /* LDHAppDelegate.h */,
+				844D23CC199C67EE0050888D /* LDHAppDelegate.m */,
+				844D23C4199C67EE0050888D /* CrystalBall1-Info.plist */,
+				844D23C5199C67EE0050888D /* InfoPlist.strings */,
+				844D23C8199C67EE0050888D /* main.m */,
+				844D23CA199C67EE0050888D /* CrystalBall1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		844D23E1199C67EE0050888D /* CrystalBall1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				844D23E7199C67EE0050888D /* CrystalBall1Tests.m */,
+				844D23E2199C67EE0050888D /* Supporting Files */,
+			);
+			path = CrystalBall1Tests;
+			sourceTree = "<group>";
+		};
+		844D23E2199C67EE0050888D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				844D23E3199C67EE0050888D /* CrystalBall1Tests-Info.plist */,
+				844D23E4199C67EE0050888D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		844D23B8199C67EE0050888D /* CrystalBall1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844D23EB199C67EE0050888D /* Build configuration list for PBXNativeTarget "CrystalBall1" */;
+			buildPhases = (
+				844D23B5199C67EE0050888D /* Sources */,
+				844D23B6199C67EE0050888D /* Frameworks */,
+				844D23B7199C67EE0050888D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrystalBall1;
+			productName = CrystalBall1;
+			productReference = 844D23B9199C67EE0050888D /* CrystalBall1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		844D23D9199C67EE0050888D /* CrystalBall1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 844D23EE199C67EE0050888D /* Build configuration list for PBXNativeTarget "CrystalBall1Tests" */;
+			buildPhases = (
+				844D23D6199C67EE0050888D /* Sources */,
+				844D23D7199C67EE0050888D /* Frameworks */,
+				844D23D8199C67EE0050888D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				844D23E0199C67EE0050888D /* PBXTargetDependency */,
+			);
+			name = CrystalBall1Tests;
+			productName = CrystalBall1Tests;
+			productReference = 844D23DA199C67EE0050888D /* CrystalBall1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		844D23B1199C67EE0050888D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LDH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = YEHKUO;
+				TargetAttributes = {
+					844D23D9199C67EE0050888D = {
+						TestTargetID = 844D23B8199C67EE0050888D;
+					};
+				};
+			};
+			buildConfigurationList = 844D23B4199C67EE0050888D /* Build configuration list for PBXProject "CrystalBall1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 844D23B0199C67EE0050888D;
+			productRefGroup = 844D23BA199C67EE0050888D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				844D23B8199C67EE0050888D /* CrystalBall1 */,
+				844D23D9199C67EE0050888D /* CrystalBall1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		844D23B7199C67EE0050888D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D23D5199C67EE0050888D /* Images.xcassets in Resources */,
+				844D23F5199C8B170050888D /* background.png in Resources */,
+				844D23C7199C67EE0050888D /* InfoPlist.strings in Resources */,
+				84BF348F199CBC3900004627 /* crystal_ball.mp3 in Resources */,
+				844D23D0199C67EE0050888D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844D23D8199C67EE0050888D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D23E6199C67EE0050888D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		844D23B5199C67EE0050888D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D23F3199C68E10050888D /* LDHCrystalBall.m in Sources */,
+				844D23C9199C67EE0050888D /* main.m in Sources */,
+				844D23D3199C67EE0050888D /* LDHViewController.m in Sources */,
+				844D23CD199C67EE0050888D /* LDHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		844D23D6199C67EE0050888D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844D23E8199C67EE0050888D /* CrystalBall1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		844D23E0199C67EE0050888D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 844D23B8199C67EE0050888D /* CrystalBall1 */;
+			targetProxy = 844D23DF199C67EE0050888D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		844D23C5199C67EE0050888D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844D23C6199C67EE0050888D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		844D23CE199C67EE0050888D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844D23CF199C67EE0050888D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		844D23E4199C67EE0050888D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				844D23E5199C67EE0050888D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		844D23E9199C67EE0050888D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		844D23EA199C67EE0050888D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		844D23EC199C67EE0050888D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrystalBall1/CrystalBall1-Prefix.pch";
+				INFOPLIST_FILE = "CrystalBall1/CrystalBall1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		844D23ED199C67EE0050888D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrystalBall1/CrystalBall1-Prefix.pch";
+				INFOPLIST_FILE = "CrystalBall1/CrystalBall1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		844D23EF199C67EE0050888D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrystalBall1.app/CrystalBall1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrystalBall1/CrystalBall1-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CrystalBall1Tests/CrystalBall1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		844D23F0199C67EE0050888D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CrystalBall1.app/CrystalBall1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CrystalBall1/CrystalBall1-Prefix.pch";
+				INFOPLIST_FILE = "CrystalBall1Tests/CrystalBall1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		844D23B4199C67EE0050888D /* Build configuration list for PBXProject "CrystalBall1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844D23E9199C67EE0050888D /* Debug */,
+				844D23EA199C67EE0050888D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844D23EB199C67EE0050888D /* Build configuration list for PBXNativeTarget "CrystalBall1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844D23EC199C67EE0050888D /* Debug */,
+				844D23ED199C67EE0050888D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		844D23EE199C67EE0050888D /* Build configuration list for PBXNativeTarget "CrystalBall1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				844D23EF199C67EE0050888D /* Debug */,
+				844D23F0199C67EE0050888D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 844D23B1199C67EE0050888D /* Project object */;
+}
